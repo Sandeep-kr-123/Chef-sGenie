@@ -22,7 +22,7 @@ This web application allows users to search for recipes based on ingredients or 
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
 
 ## Acknowledgments
-- Thanks to [TheMealDb] for providing the recipe data.
+Thanks to [TheMealDb](https://www.themealdb.com/api.php) for providing the recipe data.
 
 ## Support
 For any issues or questions, please open an [issue](https://github.com/Sandeep-kr-123/Chef-sGenie/issues) on GitHub.

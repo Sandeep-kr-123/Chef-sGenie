@@ -18,8 +18,8 @@
             <span class="logo-text"> Chef's Genie </span>
         </div>
         <div class="search-box">
-            <button  class="btn-search" type="submit" id="btn-search"><i class="fas fa-search"></i></button>
-            <input type="text" class="input-search" placeholder="Type to search.....">
+            <button class="nav-search-btn" type="submit" id="nav-search-btn"><i class="fas fa-search"></i></button>
+            <input type="text" class="input-search" placeholder="Type to search....." id="nav-search-input">
         </div>
     </nav>
 
@@ -27,7 +27,6 @@
         <div class="hero-section">
             <div class="hero-content">
                 <h2 class="title">Welcome to Chef's Genie</h2>
-                <!-- <h2 class="title">Discover dishes based on your ingredients.</h2> -->
                 <blockquote>Recipes are like a map, but ingredients are the compass guiding us to culinary
                     adventure.<br>
                     <cite>- Unknown</cite>
@@ -42,10 +41,6 @@
         <div class="meal-wrapper">
             <div class="meal-search">
                 <h2 class="title">Discover dishes based on your ingredients.</h2>
-                <!-- <blockquote>Recipes are like a map, but ingredients are the compass guiding us to culinary
-                    adventure.<br>
-                    <cite>- Unknown</cite>
-                </blockquote> -->
 
                 <div class="meal-search-box">
                     <input type="text" class="search-control" placeholder="Enter an ingredient" id="search-input">
@@ -55,31 +50,18 @@
                 </div>
             </div>
             <div class="tab-container">
-                <div>
-                    <button class="tab-btn" type="button" onclick="showTabContent(event,'Starter')">Starter</button>
-                    <button class="tab-btn" type="button" onclick="showTabContent(event,'Chicken')">Chicken</button>
-                    <button class="tab-btn" type="button" onclick="showTabContent(event,'Dessert')">Dessert</button>
-                    <button class="tab-btn" type="button"
-                        onclick="showTabContent(event,'Vegetarian')">Vegetarian</button>
-                    <button class="tab-btn" type="button"
-                        onclick="showTabContent(event,'Miscellaneous')">Miscellaneous</button>
-                </div>
+                <button class="tab-btn" type="button" onclick="showTabContent(event,'Starter')">Starter</button>
+                <button class="tab-btn" type="button" onclick="showTabContent(event,'Chicken')">Chicken</button>
+                <button class="tab-btn" type="button" onclick="showTabContent(event,'Dessert')">Dessert</button>
+                <button class="tab-btn" type="button" onclick="showTabContent(event,'Vegetarian')">Vegetarian</button>
+                <button class="tab-btn" type="button"
+                    onclick="showTabContent(event,'Miscellaneous')">Miscellaneous</button>
             </div>
 
             <div class="meal-result">
                 <h2 class="title">Your Search Results:</h2>
                 <div id="meal">
                     <!-- meal item -->
-                    <!-- <div class="meal-item">
-                        <div class="meal-img">
-                            <img src="./assets/meal.jpg" alt="food">
-                        </div>
-                        <div class="meal-name">
-                            <h3>Potato Chips</h3>
-                            <a href="#" class="recipe-btn">Get Recipe</a>
-                        </div>
-                    </div> -->
-                    <!-- end of meal item -->
                 </div>
             </div>
 
@@ -92,22 +74,7 @@
 
                 <!-- meal content -->
                 <div class="meal-details-content">
-                    <!-- <h2 class="recipe-title">Meals Name Here</h2>
-                    <p class="recipe-category">Category Name</p>
-                    <div class="recipe-instruct">
-                        <h3>Instructions:</h3>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo blanditiis quis accusantium
-                            natus! Porro, reiciendis maiores molestiae distinctio veniam ratione ex provident ipsa,
-                            soluta suscipit quam eos velit autem iste!</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet aliquam voluptatibus ad
-                            obcaecati magnam, esse numquam nisi ut adipisci in?</p>
-                    </div>
-                    <div class="recipe-meal-img">
-                        <img src="./assets/meal.jpg" alt="">
-                    </div>
-                    <div class="recipe-link">
-                        <a href="#" target="_blank">Watch Video</a>
-                    </div> -->
+                    <!-- meal deatil -->
                 </div>
             </div>
 
